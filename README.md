@@ -15,7 +15,7 @@ Before Service Fabric shipped publicly as a product in 2015, it was developed as
 
 ## How to engage, contribute and provide feedback 
 The Service Fabric team accepts pull requests and other contributions on a best-effort basis. If we accept a PR, we will integrate the changes into our internal development repo for testing and verification, and then push the merged changes back to GitHub when the change is released in a new SDK release. The smaller and more targeted your PRs, the easier it will be for us to review and integrate them. 
-For more information on how this process works and how to contribute, provide feedback, and log bugs, please see [Contributing.md](CONTRIBUTING.MD).
+For more information on how this process works and how to contribute, provide feedback, and log bugs, please see [Contributing.md](CONTRIBUTING.md).
 
 ## Documentation 
 Service Fabric has a rich set of conceptual and reference documentation available at [docs.microsoft.com/azure/service-fabric](https://docs.microsoft.com/azure/service-fabric/). Documentation is also open to your contribution on GitHub at [github.com/Microsoft/azure-docs](https://github.com/Microsoft/azure-docs).
@@ -24,7 +24,7 @@ Service Fabric has a rich set of conceptual and reference documentation availabl
 For Service Fabric sample code, check out the [Azure Code Sample gallery](https://azure.microsoft.com/resources/samples/?service=service-fabric) or go straight to [Azure-Samples on GitHub](https://github.com/Azure-Samples?q=service-fabric).
 
 ## License 
-All Service Fabric OSS projects are licensed under the [MIT License](License.txt).
+All Service Fabric OSS projects are licensed under the [MIT License](LICENSE.txt).
 
 ## Code of Conduct 
 All Service Fabric OSS projects adopt the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
