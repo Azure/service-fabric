@@ -56,8 +56,7 @@ Follow this guidance for setting up your developer environment:
 * [Getting Started with Mac](https://docs.microsoft.com/azure/service-fabric/service-fabric-get-started-mac)
 * [Getting Started with Windows](https://docs.microsoft.com/azure/service-fabric/service-fabric-get-started)
 
-[!div class="x-tdCol2BreakAll"]
-|Area |Package | Version | Repository |Direct Download Link |
+| Area | Package | Version | Repository | Direct Download Link |
 |-|-|-|-|-|
 |Service Fabric Runtime |Ubuntu Developer Set-up |6.5.476.1 |N/A | Cluster Runtime: https://apt-mo.trafficmanager.net/repos/servicefabric/pool/main/s/servicefabric <br> Service Fabric SDK for local cluster setup: https://apt-mo.trafficmanager.net/repos/servicefabric/pool/main/s/servicefabricsdkcommon/ <br> Container image: https://hub.docker.com/r/microsoft/service-fabric-onebox/ 
 || Windows Developer Set-up| 6.5.676.9590 | N/A |https://download.microsoft.com/download/b/8/a/b8a2fb98-0ec1-41e5-be98-9d8b5abf7856/MicrosoftServiceFabric.6.5.676.9590.exe |
