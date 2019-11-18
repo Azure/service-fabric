@@ -20,7 +20,7 @@ Microsoft Azure Service Fabric 7.0 Release Notes
 * [Upcoming Breaking Changes](#upcoming-breaking-changes)
 * [Service Fabric Runtime](#service-fabric-runtime)
 * [Service Fabric Common Bug Fixes](#service-fabric-common-bug-fixes)
-* [Service Fabric Explorer](#service-fabric-common-explorer)
+* [Service Fabric Explorer](#service-fabric-explorer)
 * [Reliable Collections](#reliable-collections)
 * [Repositories and Download Links](#repositories-and-download-links)
 * [Visual Studio 2015 Tool for Service Fabric - Localized Download Links](#visual-studio-2015-tool-for-service-fabric-\--localized-download-links)
