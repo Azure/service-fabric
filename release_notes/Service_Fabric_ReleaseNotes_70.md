@@ -17,7 +17,7 @@ The following packages and versions are part of this release:
 Microsoft Azure Service Fabric 7.0 Release Notes
 
 * [Key Announcements](#key-announcements)
-* [Upcoming Breaking Changes](#upcomig-breaking-changes)
+* [Upcoming Breaking Changes](#upcoming-breaking-changes)
 * [Service Fabric Runtime](#service-fabric-runtime)
 * [Service Fabric Common Bug Fixes](#service-fabric-common-bug-fixes)
 * [Service Fabric Explorer](#service-fabric-common-explorer)
@@ -32,7 +32,7 @@ Microsoft Azure Service Fabric 7.0 Release Notes
 - Introduction of the [Very High move cost](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-cluster-resource-manager-movement-cost) for a replica type. We have introduced a new “Very High” move cost value (above “High”) that provides additional control to prevent unnecessary movements in some usage scenarios.  Please see the docs for additional information on when usage of a “Very High” move cost is reasonable and for additional considerations.
 - [ReliableCollectionsMissingTypesTool](https://github.com/hiadusum/ReliableCollectionsMissingTypesTool/releases/tag/1.0.0): This tool helps validate that types used in reliable collections are forward and backward compatible during a rolling application upgrade. This helps prevent upgrade failures or data loss and data corruption due to missing or incompatible types.
 - **Configurable seed node quorum safety check**: ability for the users to customize how many seed nodes up have to be available during application lifecycle management scenarios.
-- **Service Fabric Explorer**:  Added support for [managing Backup Restore service](https://docs.microsoft.com/azure/service-fabric/service-fabric-backuprestoreservice-quickstart-azurecluster). This makes the following activities possible directly from within SFX: discovering backup and restore service, ability to create backup policies, enabling automatic backup for application, service, partitions,taking adhoc backup, triggering a restore operation apart from browsing existing backups.
+- **Service Fabric Explorer**:  Added support for [managing Backup Restore service](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-backuprestoreservice-quickstart-azurecluster#using-service-fabric-explorer). This makes the following activities possible directly from within SFX: discovering backup and restore service, ability to create backup policies, enabling automatic backup for application, service, partitions,taking adhoc backup, triggering a restore operation apart from browsing existing backups.
 - **Additional cluster safety checks**: In this release we introduced a configurable seed node quorum safety check. This allows you to customize how many seed nodes must be available during cluster lifecycle and management scenarios. Operations which would take the cluster below the configured value are blocked. Today the default value is always a quorum of the seed nodes, for example, if you have 7 seed nodes, an operation that would take you below 5 seed nodes would be blocked by default. With this change, you could make the minimum safe value 6, which would allow only one seed node to be down at a time.   
 
 ## Upcoming Breaking Changes
