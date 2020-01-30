@@ -22,8 +22,8 @@ Microsoft Azure Service Fabric 7.0 Second Refresh Release Notes
 
 ## Key Announcements
 
-* **Cluster Upgrade**: We had found regression issues in 7.0 release. Hence recommend to upgrade to this latest refresh 7.0 release if clusters are on version 6.5 and above.
-* **Preview Feature**: [Drain requests before closing stateless instances](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-upgrade-advanced#avoid-connection-drops-during-planned-downtime-of-stateless-services) avoid getting connections dropped during planned cluster/application upgrade.
+* **Cluster Upgrade**: We had found regression issues in 7.0 release. Hence, recommend to upgrade to this latest version of 7.0 release if clusters are on version 6.5 and above.
+* **Preview Feature**: [Avoid connection drops during planned downtime of stateless services](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-upgrade-advanced#avoid-connection-drops-during-planned-downtime-of-stateless-services)
 
 ## Service Fabric Runtime
 
