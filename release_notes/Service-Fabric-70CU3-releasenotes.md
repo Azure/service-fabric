@@ -56,7 +56,7 @@ Follow this guidance for setting up your developer environment:
 || Windows Developer Set-up| 7.0.466.9590 | N/A |https://download.microsoft.com/download/a/e/6/ae642d7b-1196-49d8-bacc-c546dd5e12d0/MicrosoftServiceFabric.7.0.466.9590.exe |
 |Service Fabric for Windows Server |Service Fabric Standalone Installer Package |7.0.466.9590 |N/A | https://download.microsoft.com/download/8/3/6/836E3E99-A300-4714-8278-96BC3E8B5528/7.0.466.9590/Microsoft.Azure.ServiceFabric.WindowsServer.7.0.466.9590.zip |
 ||Service Fabric Standalone Runtime |7.0.466.9590 |N/A |https://download.microsoft.com/download/B/0/B/B0BCCAC5-65AA-4BE3-AB13-D5FF5890F4B5/7.0.466.9590/MicrosoftAzureServiceFabric.7.0.466.9590.cab |
-|.NET SDK |Windows .NET SDK |4.0.466 |N/A |https://download.microsoft.com/download/8/b/2/8b21dcf8-4909-4aaa-8dcb-64c0a37a2d9c/MicrosoftServiceFabricSDK.4.0.466.msi |
+|.NET SDK |Windows .NET SDK |4.0.466 |N/A |https://download.microsoft.com/download/a/e/6/ae642d7b-1196-49d8-bacc-c546dd5e12d0/MicrosoftServiceFabricSDK.4.0.466.msi |
 ||Microsoft.ServiceFabric |7.0.466 |N/A |https://www.nuget.org |
 ||Reliable Services and Reliable Actors<br>\-Microsoft.ServiceFabric.Services<br>\-Microsoft.ServiceFabric.Services.Remoting<br>\-Microsoft.ServiceFabric.Services.Wcf <br>\-Microsoft.ServiceFabric.Actors <br>\-Microsoft.ServiceFabric.Actors.Wcf |4.0.466|https://github.com/Azure/service-fabric-services-and-actors-dotnet |https://www.nuget.org |
 ||ASP.NET Core Service Fabric integration<br>\-Microsoft.ServiceFabric.Services.AspNetCore.*|4.0.466 |https://github.com/Azure/service-fabric-aspnetcore |https://www.nuget.org |
