@@ -24,7 +24,7 @@ Microsoft Azure Service Fabric 7.0 Third Refresh Release Notes
 
 * **Cluster Upgrade**: We had found regression issues in 7.0 second refresh release rolled out on January 29,2020. Hence, recommend to upgrade to this latest version of 7.0 third refresh release if clusters are on version 6.5 and above.
 * **Preview Feature**: [Avoid connection drops during planned downtime of stateless services](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-upgrade-advanced#avoid-connection-drops-during-planned-downtime-of-stateless-services)
-* **7.0 breaking change**: **Prevent Application Activations if services have a static port within ApplicationPortRange**. It took effect starting in 7.0 and going forward.There are endpoint resolution conflicts because customer specifies a static port within ApplicationPortRange. This is a breaking change where service activations will FAIL if there is an endpoint with [static port that is within the application port range](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabricapplication-and-service-manifests#describe-a-service-in-servicemanifestxml)
+* **7.0 breaking change**: **Prevent Application Activations if services have a static port within ApplicationPortRange**. It took effect starting in 7.0 and going forward.There are endpoint resolution conflicts because customer specifies a static port within ApplicationPortRange. This is a breaking change where service activations will FAIL if there is an endpoint with [static port that is within the application port range](https://docs.microsoft.com/en-us/azure/service-fabric/service-fabric-application-and-service-manifests)
 
 
 ## Service Fabric Runtime
